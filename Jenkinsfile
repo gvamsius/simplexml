@@ -4,7 +4,7 @@ pipeline {
    // stage('Git checkout') {
         // Get some code from a GitHub repository
        // git 'https://github.com/gvamsius/simplexml.git'
-     //   }
+     //       }
     stages{
 
 		stage('send artifacts to ansible server') {
